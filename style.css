@@ -1,0 +1,496 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin sans', sans-serif;
+    box-sizing: border-box;
+}
+
+
+.hero{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(1.jpg);
+    height: 130vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+    
+}
+
+nav{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.637),rgba(255, 255, 255, 0.897),rgba(253, 252, 252, 0.527)), url(pic.jpg);
+    height: 84px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    
+}
+
+.logo{
+    color:  #ffffff;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-shadow: 1px 2px 4px #000;
+    
+}
+h6{
+   color: #01033b;
+   font-size: 35px;
+   letter-spacing: 1px;
+   cursor: pointer;
+   text-shadow: 1px 2px 4px #000;
+   padding-right: 500px;
+   
+}
+
+h3{
+    color:  black;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    
+}
+span{
+    color: #be0db0;
+}
+
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 6px;
+}
+
+nav ul li a{
+    background-color: #01033b;;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-size: 13px;
+    padding: 4px;
+    border-radius: 30px;
+    transition: .4s;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav ul li a:hover{
+    background-color: transparent;
+    border: 2px solid #02031b;
+    cursor: pointer;
+    color: #01033b;
+}
+
+.btn{
+    background-color: #ffffff;
+    color: #01033b;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 4px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.btn:hover{
+    transform: scale(1.2)
+}
+
+.content{
+    position: absolute;
+    top: 70%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+h1 {
+    color: #01033b;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+    position: 20% bottom;
+}
+
+h3{
+    color: rgba(192, 192, 16, 0.993);
+    font-size: 75px;
+    padding-top: 365px;
+    padding-left: 900px;
+}
+h5{
+   color: rgba(192, 192, 16, 0.993); 
+    
+}
+
+h4{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.newslatter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #01033b ;
+    outline: none;
+    border-radius: 30px;
+    position: 20% left bottom;
+}
+
+.newslatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #01033b;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+}
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+
+.about img{
+    height: auto;
+    width: 430px;
+}
+
+.about-text{
+    width: 550px;
+
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.about-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5{
+        color: white;
+        letter-spacing: 2px;
+        font-size: 22px;
+        margin-bottom: 25px;
+        text-transform: capitalize;
+}
+
+.about-text p{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+button{
+    background-color: #01033b;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+button:hover{
+    background-color: transparent;
+    border: 2px solid #01033b;
+    cursor: pointer;
+}
+
+.service{
+    background: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background-color: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    transition: .4s ease-in-out; 
+}
+
+.card:hover{
+    transform: scale(1.2)
+}
+
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.pra p{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.card .button{
+    background-color: #01033b;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid #01033b;
+    cursor: pointer;
+}
+
+.Contact-us{
+    width: 100%;
+    height: 290px;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Contact-us p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.Contact-us .button-two{
+    background-color: #01033b;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.Contact-us .button-two:hover{
+    background-color: transparent;
+    border: 2px solid #01033b;
+    cursor: pointer;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p:nth-child(1){
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+footer p:nth-child(2){
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.end{
+    position: absolute;
+    color: #ffffff;
+    bottom: 35px;
+    font-size: 15px;
+}
+
+.toggle-button{
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+ 
+.checkbtn{
+    font-size: 30px;
+    color: #ffffff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+    
+@media (max-width: 952px){
+    .logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+
+    nav ul li a{
+        font-size: 16px;
+
+    }
+}
+@media (max-width: 852px){
+    .checkbtn{
+        display: block;
+    }
+
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #000000;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a{
+        font-size: 20px;
+    }
+    a:hover,a.active{
+        background: none;
+        color: #01033b;
+    }
+
+    #check:checked ~ ul{
+        left: 0;
+    }
+}
+
+@media(max-width: 768px)
+{
+    .box{
+        max-width: 100%;
+        flex-direction: column;
+        
+    }
+    
+    .title h2{
+        font-size: 60px;
+        padding-right: 600px;
+    }
+    
+   .Contact-us p{
+    font-size: 20px;
+   }
+    .main{
+       display: flex;
+       flex-direction: column; 
+    }
+    
+    .about-text p{
+        margin: 80px;
+    }
+    button{
+        margin: 80px;
+        line-height: 10px;
+        margin-top: 70px;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+    } 
+
+    h1 {
+        display: none;
+        
+    }
+    h3{
+        display: none;
+    }
+    
+    h4{
+        font-size: 30px;
+        color: hsl(189, 96%, 51%);
+        padding: 30px;
+        display: none;
+    }
+    .hero{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(1.jpg);
+        background-size: cover; 
+    }
+
+    
+}
